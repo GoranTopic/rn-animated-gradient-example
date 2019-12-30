@@ -7,8 +7,8 @@ export class GradientHelper extends Component {
       style,
       color1,
       color2,
-      start = { x: 0, y: 0 },
-      end = { x: 0, y: 1 }
+      start,
+      end,
     } = this.props;
     return (
       <LinearGradient
